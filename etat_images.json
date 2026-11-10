@@ -1,0 +1,1702 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "updatedAt": null,
+  "provenance": {
+    "initialisePar": "C50_061",
+    "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
+    "note": "Titres/pages issus du storyboard de travail V1.1. Les formats VG/DP inférés des marqueurs * et ++ sont indicatifs et modifiables. Aucun état de fabrication ni validation déduit des statuts de storyboard."
+  },
+  "chapters": [
+    {
+      "id": "LO",
+      "title": "Lola"
+    },
+    {
+      "id": "GA",
+      "title": "Gaspard"
+    },
+    {
+      "id": "CO",
+      "title": "Coco"
+    },
+    {
+      "id": "NA",
+      "title": "Nabil"
+    },
+    {
+      "id": "KI",
+      "title": "Kika"
+    },
+    {
+      "id": "FI",
+      "title": "Fifi"
+    },
+    {
+      "id": "RE",
+      "title": "Révélation"
+    },
+    {
+      "id": "EP",
+      "title": "Épilogue"
+    }
+  ],
+  "images": [
+    {
+      "id": "LO1A",
+      "chapter": "LO",
+      "title": "lola dans sa chambre",
+      "page": "3",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "+",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "LO1B",
+      "chapter": "LO",
+      "title": "lola admire la lune",
+      "page": "4",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "LO1C",
+      "chapter": "LO",
+      "title": "la lune l'attire",
+      "page": "5",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "LO1D",
+      "chapter": "LO",
+      "title": "la lune l'attire 2",
+      "page": "5",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "LO1E",
+      "chapter": "LO",
+      "title": "lune dans les yeux",
+      "page": "5",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "LO1F",
+      "chapter": "LO",
+      "title": "la balade sur la lune",
+      "page": "6",
+      "format": "DP",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "++",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "LO2A",
+      "chapter": "LO",
+      "title": "comment y parvenir",
+      "page": "8",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "LO2B",
+      "chapter": "LO",
+      "title": "souvenir de balade",
+      "page": "9",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "LO2C",
+      "chapter": "LO",
+      "title": "le salut",
+      "page": "9",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "LO2D",
+      "chapter": "LO",
+      "title": "le cap",
+      "page": "9",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "LO3A",
+      "chapter": "LO",
+      "title": "le lac",
+      "page": "10",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "LO3B",
+      "chapter": "LO",
+      "title": "lola s'affole",
+      "page": "10",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "LO3C",
+      "chapter": "LO",
+      "title": "la goutte",
+      "page": "11",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "LO3D",
+      "chapter": "LO",
+      "title": "la plume",
+      "page": "11",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "LO3E",
+      "chapter": "LO",
+      "title": "illusion canard",
+      "page": "12",
+      "format": "DP",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "++",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "GA1A",
+      "chapter": "GA",
+      "title": "révélation Gaspard",
+      "page": "14",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "GA1B",
+      "chapter": "GA",
+      "title": "la liste Gaspard",
+      "page": "15",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "GA2A",
+      "chapter": "GA",
+      "title": "la diva",
+      "page": "16",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "GA2B",
+      "chapter": "GA",
+      "title": "la palme",
+      "page": "17",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "GA2C",
+      "chapter": "GA",
+      "title": "la surprise de Gaspard",
+      "page": "17",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "GA2D",
+      "chapter": "GA",
+      "title": "illusion crabe",
+      "page": "18",
+      "format": "DP",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "++",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "CO1A",
+      "chapter": "CO",
+      "title": "révélation coco",
+      "page": "20",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "CO1B",
+      "chapter": "CO",
+      "title": "coco se dresse",
+      "page": "20",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "CO2A",
+      "chapter": "CO",
+      "title": "les notes de Coco",
+      "page": "21",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "CO2B",
+      "chapter": "CO",
+      "title": "Coco griffone",
+      "page": "21",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "CO2C",
+      "chapter": "CO",
+      "title": "plume cassée",
+      "page": "21",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "CO2D",
+      "chapter": "CO",
+      "title": "la liste de coco",
+      "page": "22",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "CO2E",
+      "chapter": "CO",
+      "title": "le plan de coco",
+      "page": "23",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "+",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "CO3A",
+      "chapter": "CO",
+      "title": "la panique de coco",
+      "page": "24",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "CO3B",
+      "chapter": "CO",
+      "title": "le désespoir de coco",
+      "page": "25",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "CO3C",
+      "chapter": "CO",
+      "title": "illusion du crocodile",
+      "page": "26",
+      "format": "DP",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "++",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "NA1A",
+      "chapter": "NA",
+      "title": "révélation nabil",
+      "page": "28",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "NA1B",
+      "chapter": "NA",
+      "title": "cuisse de lapine",
+      "page": "28",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "NA2A",
+      "chapter": "NA",
+      "title": "nabil jure",
+      "page": "29",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "NA2B",
+      "chapter": "NA",
+      "title": "dent de croco",
+      "page": "29",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "NA2C",
+      "chapter": "NA",
+      "title": "le témoin koala",
+      "page": "29",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "NA2D",
+      "chapter": "NA",
+      "title": "Nabil plan serré, qui fixe quelque chose, estomaqué",
+      "page": "29",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "NA2E",
+      "chapter": "NA",
+      "title": "illusion du koala",
+      "page": "30",
+      "format": "DP",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "++",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "KI1A",
+      "chapter": "KI",
+      "title": "révélation kika",
+      "page": "32",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "KI1B",
+      "chapter": "KI",
+      "title": "kika et l'arbre",
+      "page": "33",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "KI2A",
+      "chapter": "KI",
+      "title": "kika et le regard",
+      "page": "34",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "KI3A",
+      "chapter": "KI",
+      "title": "allo la lune",
+      "page": "35",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "KI3B",
+      "chapter": "KI",
+      "title": "le bisou de Nabil",
+      "page": "36",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "KI3C",
+      "chapter": "KI",
+      "title": "kika+lune",
+      "page": "36",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "KI4A",
+      "chapter": "KI",
+      "title": "kika et le messager",
+      "page": "37",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "KI4B",
+      "chapter": "KI",
+      "title": "l'acrobate",
+      "page": "37",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "KI4C",
+      "chapter": "KI",
+      "title": "illusion colibri",
+      "page": "38",
+      "format": "DP",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "++",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI1A",
+      "chapter": "FI",
+      "title": "révélation fifi",
+      "page": "40",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "FI1B",
+      "chapter": "FI",
+      "title": "envol fifi",
+      "page": "40",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI1C",
+      "chapter": "FI",
+      "title": "fifi proche lune",
+      "page": "40",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI1D",
+      "chapter": "FI",
+      "title": "piquer fifi",
+      "page": "41",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI1E",
+      "chapter": "FI",
+      "title": "fifi posé",
+      "page": "41",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI1F",
+      "chapter": "FI",
+      "title": "virevolte — clé de sol",
+      "page": "41",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI2A",
+      "chapter": "FI",
+      "title": "captif du globe — note",
+      "page": "42",
+      "format": "VG",
+      "nature": "note",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI2B",
+      "chapter": "FI",
+      "title": "banni du cosmos— note",
+      "page": "42",
+      "format": "VG",
+      "nature": "note",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI2C",
+      "chapter": "FI",
+      "title": "altitudes fatales— note",
+      "page": "43",
+      "format": "VG",
+      "nature": "note",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI2D",
+      "chapter": "FI",
+      "title": "aveu de fifi— note",
+      "page": "43",
+      "format": "VG",
+      "nature": "note",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI3A",
+      "chapter": "FI",
+      "title": "fifi libre",
+      "page": "44",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI3B",
+      "chapter": "FI",
+      "title": "murs, arbres massifs, cols, latitudes — phrase musicale",
+      "page": "45",
+      "format": "VG",
+      "nature": "note",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI3C",
+      "chapter": "FI",
+      "title": "l'azur — note",
+      "page": "45",
+      "format": "VG",
+      "nature": "note",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI4A",
+      "chapter": "FI",
+      "title": "fifi paradis",
+      "page": "46",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "FI4B",
+      "chapter": "FI",
+      "title": "lune guide",
+      "page": "47",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "+",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "FI4C",
+      "chapter": "FI",
+      "title": "colibri de la nuit",
+      "page": "49",
+      "format": "",
+      "nature": "note",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "+",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "RE1A",
+      "chapter": "RE",
+      "title": "la tornade",
+      "page": "50",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "RE1B",
+      "chapter": "RE",
+      "title": "les phases de lunes",
+      "page": "51",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "RE2A",
+      "chapter": "RE",
+      "title": "Lola révélation",
+      "page": "52",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "RE2B",
+      "chapter": "RE",
+      "title": "lune révélation",
+      "page": "53",
+      "format": "VG",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "*",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "RE3A",
+      "chapter": "RE",
+      "title": "l'ami. la lune",
+      "page": "54",
+      "format": "DP",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "++",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "RE3B",
+      "chapter": "RE",
+      "title": "ma lune l'amie",
+      "page": "57",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "+",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "EP1A",
+      "chapter": "EP",
+      "title": "lola dort",
+      "page": "59",
+      "format": "",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "+",
+        "formatEstimation": false
+      }
+    },
+    {
+      "id": "EP2A",
+      "chapter": "EP",
+      "title": "balade par le livre",
+      "page": "60",
+      "format": "DP",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "++",
+        "formatEstimation": true
+      }
+    },
+    {
+      "id": "EP2B",
+      "chapter": "EP",
+      "title": "tu y seras",
+      "page": "62",
+      "format": "DP",
+      "nature": "classique",
+      "placement": "",
+      "commentaire": "",
+      "stages": {
+        "recherche": false,
+        "personnages": false,
+        "decors": false,
+        "corps": false,
+        "integration": false,
+        "valide": false
+      },
+      "source": {
+        "document": "Storyboard intégral V1.1 C45_063",
+        "marqueur": "++",
+        "formatEstimation": true
+      }
+    }
+  ]
+}
