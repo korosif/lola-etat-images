@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lola — État des illustrations</title>
+  <meta name="theme-color" content="#f5f7f9">
+  <style>
+    :root { color-scheme: light; --ink:#203044; --muted:#68778a; --line:#dce4eb; --paper:#fff; --bg:#f5f7f9; --accent:#355b75; --ok:#318268; --error:#ad3847; }
+    * { box-sizing:border-box; }
+    html,body { margin:0; font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif; color:var(--ink); background:var(--bg); }
+    button,input,select,textarea { font:inherit; }
+    button { cursor:pointer; }
+    header { background:var(--paper); border-bottom:1px solid var(--line); position:sticky; top:0; z-index:5; }
+    .top { max-width:1000px; margin:auto; padding:13px 14px 10px; display:flex; align-items:center; flex-wrap:wrap; justify-content:space-between; gap:8px; }
+    h1 { margin:0; font-size:19px; font-weight:700; letter-spacing:-.02em; }
+    .subtitle { margin:1px 0 0; font-size:12px; color:var(--muted); }
+    .tools { display:flex; gap:6px; align-items:center; flex-wrap:wrap; }
+    .tool { border:1px solid #cbd6df; color:var(--ink); background:white; border-radius:7px; font-size:12px; font-weight:550; padding:7px 9px; }
+    .tool.active { background:#e6edf2; border-color:#a6bdcd; color:#23455c; }
+    .tool:disabled { opacity:.48; }
+    .subbar { padding:0 14px 10px; max-width:1000px; margin:auto; display:flex; gap:8px; align-items:center; justify-content:space-between; }
+    .status { font-size:11px; color:var(--muted); }
+    .status.good { color:var(--ok); } .status.bad { color:var(--error); }
+    main { max-width:1000px; margin:14px auto 80px; padding:0 10px; }
+    .access-panel { background:#fff; border:1px solid #c9d8e2; border-radius:10px; padding:13px; margin-bottom:12px; box-shadow:0 2px 8px #17314914; }
+    .access-panel[hidden] { display:none; }
+    .access-panel h2 { font-size:15px; margin:0 0 6px; }
+    .access-panel p { font-size:12px; margin:0 0 9px; line-height:1.5; color:var(--muted); }
+    .access-panel input[type=password] { display:block; width:100%; border:1px solid #cbd7e0; padding:10px; border-radius:6px; font-size:14px; margin:5px 0 10px; }
+    .access-remember { display:flex; align-items:center; gap:8px; font-size:12px; margin:8px 0 10px; color:#53697a; }
+    .access-actions { display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+    .access-actions a { font-size:12px; }
+    .access-panel .access-note { margin:9px 0 0; }
+    .access-remember input[type=checkbox] { width:17px; height:17px; }
+    .access-panel .field { margin:7px 0 0; }
+    .hint { font-size:12px; color:var(--muted); margin:6px 3px 13px; }
+    .chapter { background:white; border:1px solid var(--line); border-radius:10px; overflow:hidden; margin:0 0 12px; box-shadow:0 1px 3px #172e4310; }
+    .chapter-head { padding:12px 13px; display:flex; justify-content:space-between; align-items:center; gap:8px; cursor:pointer; border:0; background:#fdfefe; width:100%; color:var(--ink); text-align:left; }
+    .chapter-head strong { font-size:15px; }
+    .chapter-head small { color:var(--muted); font-size:11px; }
+    .chapter-body[hidden] { display:none; }
+    table { width:100%; border-collapse:collapse; table-layout:fixed; }
+    col.col-name { width:45%; } col.col-format { width:10%; } col.col-stage { width:11.25%; }
+    thead th { background:#f4f7f9; color:#5c7082; font-size:11px; letter-spacing:.01em; font-weight:650; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:8px 0; text-align:center; }
+    thead th:first-child { padding-left:13px; text-align:left; }
+    tbody tr.item-row { border-bottom:1px solid #edf0f3; }
+    tbody tr.item-row:hover { background:#fbfdfe; }
+    td { padding:6px 3px; text-align:center; vertical-align:middle; }
+    td:first-child { padding-left:10px; text-align:left; }
+    .item-name { display:block; width:100%; background:none; border:none; padding:1px 0; color:var(--ink); text-align:left; }
+    .item-name .label { display:block; font-size:13px; font-weight:600; overflow-wrap:break-word; line-height:1.2; }
+    .item-name .meta { color:var(--muted); font-size:10px; display:block; margin-top:3px; }
+    .item-name .arrow { color:#7892a4; display:inline-block; width:10px; }
+    .fmt { display:inline-block; min-width:26px; padding:3px 2px; border-radius:5px; background:#edf2f6; font-size:11px; font-weight:700; color:#3d596c; }
+    .fmt.missing { background:transparent; color:#b0bbc4; }
+    input[type=checkbox] { appearance:auto; accent-color:var(--ok); width:19px; height:19px; margin:0; vertical-align:middle; cursor:pointer; }
+    input[type=checkbox]:disabled { opacity:.5; }
+    tr.detail-row { background:#f7fafb; border-bottom:1px solid var(--line); }
+    .detail-cell { padding:13px 13px 15px !important; text-align:left; }
+    .detail-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:9px; }
+    .field { display:flex; flex-direction:column; gap:4px; min-width:0; color:#53697a; font-size:11px; font-weight:600; }
+    .field input,.field select,.field textarea { padding:7px 8px; border-radius:6px; border:1px solid #cbd7e0; background:white; color:var(--ink); min-width:0; width:100%; font-size:13px; }
+    .field.full { grid-column:1/-1; }
+    textarea { resize:vertical; min-height:54px; }
+    .detail-footer { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:10px; }
+    .source { font-size:10px; color:var(--muted); }
+    .save { border:1px solid #2b526b; border-radius:7px; padding:8px 12px; background:var(--accent); color:white; font-size:12px; font-weight:600; }
+    .save:disabled { opacity:.5; }
+    .empty { background:white; padding:25px; color:var(--muted); border-radius:9px; text-align:center; font-size:14px; }
+    #toast { display:none; position:fixed; z-index:20; bottom:12px; left:50%; transform:translateX(-50%); width:max-content; max-width:calc(100vw - 28px); background:#233c4f; color:white; padding:11px 15px; border-radius:8px; box-shadow:0 4px 18px #20304040; font-size:12px; }
+    #toast.bad { background:#923c48; }
+    @media(max-width:600px){
+      main { margin:8px auto 75px; padding:0 5px; }
+      .chapter { border-radius:7px; margin-bottom:8px; }
+      .chapter-head { padding:10px 9px; }
+      header h1 { font-size:17px; }
+      .top { padding:9px 9px 7px; }
+      .subbar { padding:0 9px 8px; }
+      col.col-name { width:45%; } col.col-format { width:10%; } col.col-stage { width:11.25%; }
+      .item-name .label { font-size:12px; }
+      .item-name .meta { font-size:10px; }
+      thead th:first-child { padding-left:8px; }
+      td { padding:6px 1px; }
+      td:first-child { padding-left:6px; }
+      input[type=checkbox] { width:20px; height:20px; }
+      .fmt { font-size:10px; min-width:23px; }
+      .detail-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    }
+    @media(max-width:355px){.item-name .label { font-size:11px; } input[type=checkbox] { width:18px; height:18px; } .fmt { font-size:9px; min-width:20px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="top">
+      <div><h1>État des illustrations</h1><p class="subtitle">Une lapine sur la lune</p></div>
+      <div class="tools">
+        <button class="tool active" id="filter-all" type="button">Toutes</button>
+        <button class="tool" id="filter-personnages" type="button">Persos à faire</button>
+        <button class="tool" id="reload" type="button" title="Relire depuis GitHub">↻ Actualiser</button>
+        <button class="tool" id="access" type="button">⚙ Accès GitHub</button>
+      </div>
+    </div>
+    <div class="subbar"><span class="status" id="status" role="status">Chargement…</span><span class="status" id="summary"></span></div>
+  </header>
+  <main>
+
+    <section id="access-panel" class="access-panel" hidden aria-labelledby="access-heading">
+      <h2 id="access-heading">Accès aux données GitHub</h2>
+      <p>Un jeton personnel GitHub, limité à ce dépôt, permet de lire et modifier les cases depuis cet appareil. Ne colle jamais ton jeton dans un fichier du dépôt.</p>
+      <label class="field" for="access-token">Jeton d’accès (fine-grained PAT)</label>
+      <input type="password" id="access-token" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
+      <label class="access-remember"><input id="access-remember" type="checkbox"> Mémoriser sur cet appareil (à éviter sur un appareil partagé)</label>
+      <div class="access-actions"><button type="button" class="save" id="access-connect">Connecter et charger</button><button type="button" class="tool" id="access-disconnect">Oublier ce jeton</button> <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">Créer un jeton GitHub</a></div>
+      <p class="access-note">Paramètres du jeton : propriétaire <strong>korosif</strong>, dépôt <strong>lola-etat-images</strong> uniquement, permission <strong>Contents : Read and write</strong>. Le jeton reste sur cet appareil.</p>
+    </section>
+    <p class="hint">R recherche · P/C personnages ou corps · D/I décors ou intégration · ✓ validation explicite. Clique sur un titre pour les détails. Formats : VG, G, PL, PE, DP.</p>
+    <div id="content"><div class="empty">Chargement du tableau…</div></div>
+  </main>
+  <div id="toast" role="alert"></div>
+  <script>
+  'use strict';
+  // GitHub Pages (main) + JSON mutable sur la branche data.
+  const API_URL = 'https://api.github.com/repos/korosif/lola-etat-images/contents/etat_images.json';
+  const LOCAL_TOKEN_KEY = 'lola_etat_images_github_pat_v1';
+  let githubToken = sessionStorage.getItem(LOCAL_TOKEN_KEY) || localStorage.getItem(LOCAL_TOKEN_KEY) || '';
+  let saveQueue = Promise.resolve();
+  const stageKeys = {classique:['recherche','personnages','decors','valide'], note:['recherche','corps','integration','valide']};
+  const stageNames = {recherche:'Recherche',personnages:'Personnages',decors:'Décors',corps:'Corps',integration:'Intégration',valide:'Validé'};
+  const formatNames = {'':'À préciser',VG:'Vignette',G:'Gouttière',PL:'Pleine largeur',PE:'Page entière',DP:'Double page'};
+  const byId = id => document.getElementById(id);
+  const esc = x => String(x ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let data = null, filter = 'all', editing = new Set(), closed = new Set(), pending = 0, toastTimer = null;
+
+  function status(text, cls='') { const el=byId('status'); el.textContent=text; el.className='status '+cls; }
+  function toast(text,bad=false) {
+    const el=byId('toast'); el.textContent=text; el.className=bad?'bad':''; el.style.display='block';
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer=setTimeout(()=>{el.style.display='none';}, bad?6500:2200);
+  }
+  function done() { return data.images.filter(i=>i.stages.valide).length; }
+  function refreshStatus() {
+    if (pending>0) status('Enregistrement sur GitHub…');
+    else status(githubToken?'Synchronisé avec GitHub':'Consultation GitHub · jeton requis pour modifier','good');
+    if (data) byId('summary').textContent=`${done()} / ${data.images.length} validées`;
+  }
+  function isVisible(item) {
+    return filter==='all' || (item.nature==='classique' && !item.stages.personnages && !item.stages.valide);
+  }
+  function displayRow(item) {
+    const open=editing.has(item.id);
+    const stages=stageKeys[item.nature] || stageKeys.classique;
+    const page=item.page ? ' · p. '+esc(item.page) : '';
+    const fmt=esc(item.format||'—');
+    const checks=stages.map(key=>`<td title="${esc(stageNames[key])}"><input type="checkbox" data-id="${esc(item.id)}" data-field="stages.${key}" aria-label="${esc(stageNames[key]+' — '+item.id)}" ${item.stages[key]?'checked':''}></td>`).join('');
+    const row=`<tr class="item-row"><td><button type="button" class="item-name" data-toggle="${esc(item.id)}" aria-expanded="${open}"><span class="label"><span class="arrow">${open?'⌄':'›'}</span>${esc(item.title)}</span><span class="meta">${esc(item.id)}${page}${item.nature==='note'?' · ♪':''}</span></button></td><td><span title="${esc(formatNames[item.format]||'À préciser')}" class="fmt ${item.format?'':'missing'}">${fmt}</span></td>${checks}</tr>`;
+    if (!open) return row;
+    const opts=(arr,selected)=>arr.map(([value,label])=>`<option value="${esc(value)}" ${value===selected?'selected':''}>${esc(label)}</option>`).join('');
+    const fmtOpts=Object.entries(formatNames).map(([a,b])=>[a,a?a+' — '+b:'— À préciser']);
+    const detail=`<tr class="detail-row"><td colspan="6" class="detail-cell"><div class="detail-grid" data-detail="${esc(item.id)}">
+      <label class="field full">Titre<input name="title" value="${esc(item.title)}" maxlength="160"></label>
+      <label class="field">Page(s)<input name="page" value="${esc(item.page)}" maxlength="160" placeholder="Provisoire"></label>
+      <label class="field">Format<select name="format">${opts(fmtOpts,item.format)}</select></label>
+      <label class="field">Nature<select name="nature">${opts([['classique','Classique'],['note','Note musicale']],item.nature)}</select></label>
+      <label class="field full">Placement<input name="placement" value="${esc(item.placement)}" maxlength="400" placeholder="Ex. à gauche du texte"></label>
+      <label class="field full">Commentaire<textarea name="commentaire" maxlength="2000" placeholder="Prochaine action, détail à corriger…">${esc(item.commentaire)}</textarea></label>
+    </div><div class="detail-footer"><span class="source">ID invariant : ${esc(item.id)} · Pages et formats de départ indicatifs</span><button type="button" class="save" data-save="${esc(item.id)}">Enregistrer les détails</button></div></td></tr>`;
+    return row+detail;
+  }
+  function render() {
+    if (!data) return;
+    byId('filter-all').classList.toggle('active',filter==='all');
+    byId('filter-personnages').classList.toggle('active',filter==='personnages');
+    const blocks=[];
+    for (const ch of data.chapters) {
+      const items=data.images.filter(x=>x.chapter===ch.id && isVisible(x));
+      if (!items.length) continue;
+      const valid=items.filter(x=>x.stages.valide).length;
+      blocks.push(`<section class="chapter"><button type="button" class="chapter-head" data-chapter="${esc(ch.id)}"><strong>${closed.has(ch.id)?'›':'⌄'} ${esc(ch.title)}</strong><small>${valid}/${items.length} validées</small></button><div class="chapter-body" ${closed.has(ch.id)?'hidden':''}><table><colgroup><col class="col-name"><col class="col-format"><col class="col-stage"><col class="col-stage"><col class="col-stage"><col class="col-stage"></colgroup><thead><tr><th>Illustration</th><th title="Format">Fmt</th><th title="Recherche">R</th><th title="Personnages / Corps">P/C</th><th title="Décors / Intégration">D/I</th><th title="Validation">✓</th></tr></thead><tbody>${items.map(displayRow).join('')}</tbody></table></div></section>`);
+    }
+    byId('content').innerHTML=blocks.join('') || '<div class="empty">Aucune illustration correspondant à ce filtre.</div>';
+    refreshStatus();
+  }
+  // Données lues à chaque sauvegarde : on ne réécrit jamais un document obsolète.
+  function readUtf8Base64(base64) {
+    const raw=atob(base64.replace(/\s/g,''));
+    const bytes=Uint8Array.from(raw,c=>c.charCodeAt(0));
+    return new TextDecoder().decode(bytes);
+  }
+  function writeUtf8Base64(value) {
+    const bytes=new TextEncoder().encode(value);
+    let raw='';
+    for (const byte of bytes) raw+=String.fromCharCode(byte);
+    return btoa(raw);
+  }
+  function getTokenHeaders() {
+    const headers={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'};
+    if (githubToken) headers.Authorization='Bearer '+githubToken;
+    return headers;
+  }
+  async function apiResponse(url, options={}) {
+    const response=await fetch(url,{...options,headers:{...getTokenHeaders(),...(options.headers||{})},cache:'no-store'});
+    if (response.ok) return response.json();
+    let message='';
+    try {message=(await response.json()).message||'';} catch (_) {}
+    const error=new Error('GitHub HTTP '+response.status+(message?' : '+message:''));
+    error.code=response.status;
+    throw error;
+  }
+  async function fetchLatest() {
+    const response=await apiResponse(API_URL+'?ref=data&nocache='+Date.now());
+    if(!response || !response.sha || !response.content) throw Error('Réponse GitHub incomplète.');
+    const doc=JSON.parse(readUtf8Base64(response.content));
+    if (!Array.isArray(doc.images) || !Array.isArray(doc.chapters)) throw Error('Structure JSON inattendue.');
+    return {doc,sha:response.sha};
+  }
+  function setToken(token, remember) {
+    const value=token.trim();
+    githubToken=value;
+    sessionStorage.removeItem(LOCAL_TOKEN_KEY);
+    localStorage.removeItem(LOCAL_TOKEN_KEY);
+    if (value) (remember?localStorage:sessionStorage).setItem(LOCAL_TOKEN_KEY,value);
+  }
+  function showAccess() {
+    const panel=byId('access-panel');
+    panel.hidden=false;
+    byId('access-token').value=githubToken;
+    byId('access-remember').checked=!!localStorage.getItem(LOCAL_TOKEN_KEY);
+  }
+  function requireToken() {
+    if (githubToken) return true;
+    toast('Saisis un jeton GitHub pour enregistrer.',true);
+    showAccess();
+    return false;
+  }
+  async function load() {
+    if (pending) {toast('Enregistrement en cours : actualise ensuite.',true);return;}
+    status('Chargement depuis GitHub…');
+    try {
+      const latest=await fetchLatest();
+      data=latest.doc;
+      render();
+      byId('access-panel').hidden=true;
+    } catch (err) {
+      status('Échec du chargement','bad');
+      if (err.code===401||err.code===403||err.code===404) {
+        byId('content').innerHTML='<div class="empty">Lecture impossible. Vérifie le jeton GitHub, ses permissions et le dépôt sélectionné.</div>';
+        showAccess();
+      }
+      toast(err.message||String(err),true);
+    }
+  }
+  function getValue(item,field) {
+    return field.startsWith('stages.') ? item.stages[field.slice(7)] : item[field];
+  }
+  function setValue(item,field,value) {
+    if (field.startsWith('stages.')) item.stages[field.slice(7)]=value;
+    else item[field]=value;
+  }
+  async function commitChanges(id,changes) {
+    // Deux appareils peuvent travailler sur des champs différents : fusion prudente.
+    for (let attempt=0;attempt<4;attempt++) {
+      const latest=await fetchLatest();
+      const doc=latest.doc;
+      const item=doc.images.find(i=>i.id===id);
+      if (!item) throw Error('Illustration introuvable dans le JSON : '+id);
+      let changed=false;
+      for (const change of changes) {
+        const current=getValue(item,change.field);
+        if (current===change.value) continue; // Modification déjà enregistrée.
+        if (current!==change.expected) {
+          const error=new Error('Conflit sur '+id+' / '+change.field+' : actualise pour choisir la nouvelle valeur.');
+          error.code='CONFLICT_FIELD';
+          throw error;
+        }
+        setValue(item,change.field,change.value);
+        changed=true;
+      }
+      if (!changed) return doc;
+      doc.version=(Number(doc.version)||0)+1;
+      doc.updatedAt=new Date().toISOString();
+      try {
+        await apiResponse(API_URL,{
+          method:'PUT',
+          headers:{'Content-Type':'application/json'},
+          body:JSON.stringify({message:'Suivi Lola : '+id+' ('+changes.map(x=>x.field).join(', ')+')',branch:'data',sha:latest.sha,content:writeUtf8Base64(JSON.stringify(doc,null,2)+'\n')})
+        });
+        return doc;
+      } catch(err) {
+        if (err.code===409 && attempt<3) continue;
+        throw err;
+      }
+    }
+    throw Error('Sauvegarde concurrente répétée, merci de réessayer.');
+  }
+  function saveChanges(id,changes,button=null) {
+    if (!changes.length) {toast('Aucune modification.');return;}
+    if (!requireToken()) {if(button?.matches('input[type=checkbox]')) {button.checked=!button.checked; button.disabled=false;} return;}
+    pending++;refreshStatus();
+    if (button) button.disabled=true;
+    // Les écritures depuis le même écran sont sérialisées pour éviter les collisions de SHA.
+    saveQueue=saveQueue.catch(()=>{}).then(async()=>{
+      try {
+        const latest=await commitChanges(id,changes);
+        data=latest;
+        pending--;
+        if (pending===0) render(); else refreshStatus();
+      } catch(err) {
+        pending--;
+        status('Sauvegarde échouée','bad');
+        toast('Non enregistré : '+(err.message||String(err)),true);
+        if (button) button.disabled=false;
+        if (pending===0) await load();
+      }
+    });
+  }
+  byId('content').addEventListener('click',ev=>{
+    const ch=ev.target.closest('[data-chapter]');
+    if (ch) {const id=ch.dataset.chapter;closed.has(id)?closed.delete(id):closed.add(id);render();return;}
+    const t=ev.target.closest('[data-toggle]');
+    if (t) {const id=t.dataset.toggle;editing.has(id)?editing.delete(id):editing.add(id);render();return;}
+    const btn=ev.target.closest('[data-save]');
+    if (!btn) return;
+    const id=btn.dataset.save, item=data.images.find(i=>i.id===id);
+    const form=byId('content').querySelector(`[data-detail="${id}"]`);
+    const changes=['title','page','format','nature','placement','commentaire'].map(field=>({field,value:form.querySelector(`[name="${field}"]`).value,expected:item[field]})).filter(c=>c.value!==c.expected);
+    if (changes.some(c=>c.field==='title'&&!c.value.trim())) {toast('Le titre ne peut pas être vide.',true);return;}
+    saveChanges(id,changes,btn);
+  });
+  byId('content').addEventListener('change',ev=>{
+    const target=ev.target;
+    if (!(target.matches('input[type="checkbox"][data-id]'))) return;
+    const item=data.images.find(x=>x.id===target.dataset.id);
+    const field=target.dataset.field;
+    const old=item.stages[field.slice(7)];
+    target.disabled=true;
+    saveChanges(item.id,[{field,value:target.checked,expected:old}],target);
+  });
+  byId('filter-all').addEventListener('click',()=>{filter='all';render();});
+  byId('filter-personnages').addEventListener('click',()=>{filter='personnages';render();});
+  byId('reload').addEventListener('click',load);
+  byId('access').addEventListener('click',()=>{
+    const p=byId('access-panel');
+    if(p.hidden) showAccess(); else p.hidden=true;
+  });
+  byId('access-connect').addEventListener('click',()=>{
+    const token=byId('access-token').value;
+    if (!token.trim()) {toast('Le jeton est vide.',true);return;}
+    setToken(token,byId('access-remember').checked);
+    byId('access-token').value='';
+    load();
+  });
+  byId('access-disconnect').addEventListener('click',()=>{
+    setToken('',false);
+    byId('access-token').value='';
+    data=null;
+    byId('content').innerHTML='<div class="empty">Jeton oublié. Lecture publique possible si le dépôt est public.</div>';
+    load();
+  });
+  load();
+  </script>
+</body>
+</html>
