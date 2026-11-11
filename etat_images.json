@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 58,
-  "updatedAt": "2026-11-11T16:19:28.321Z",
+  "version": 59,
+  "updatedAt": "2026-11-11T16:19:33.791Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -236,7 +236,7 @@
       "placement": "",
       "commentaire": "",
       "stages": {
-        "recherche": false,
+        "recherche": true,
         "personnages": false,
         "decors": false,
         "corps": false,
