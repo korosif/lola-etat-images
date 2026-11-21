@@ -371,7 +371,7 @@
         if (button) button.disabled=false;
         if (pending===0) {
           if (opts.preserveEditor) {
-            try { data=(await fetchLatest()).doc; refreshStatus(); }
+            try { data=(await fetchLatest()).doc; refreshStatus(); status('Sauvegarde échouée','bad'); }
             catch (_) { status('Actualisation échouée','bad'); }
           } else await load();
         }
