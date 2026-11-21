@@ -67,13 +67,33 @@
     .source { font-size:10px; color:var(--muted); }
     .save { border:1px solid #2b526b; border-radius:7px; padding:8px 12px; background:var(--accent); color:white; font-size:12px; font-weight:600; }
     .save:disabled { opacity:.5; }
+    .chapter-head strong { flex:1; min-width:0; }
+    .chapter-counts { display:flex; flex-direction:column; align-items:flex-end; flex-shrink:0; gap:2px; line-height:1.2; }
+    .comment-heading { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+    .comment-heading label { cursor:text; }
+    .comment-field textarea { line-height:1.45; min-height:calc(10 * 1.45em + 16px); }
+    .icon-button { display:inline-flex; align-items:center; justify-content:center; width:42px; height:42px; padding:8px; border:1px solid #cbd7e0; border-radius:8px; background:white; color:var(--accent); flex-shrink:0; touch-action:manipulation; }
+    .icon-button svg { width:21px; height:21px; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+    .icon-button:focus-visible { outline:3px solid #7ab6d2; outline-offset:2px; }
+    .icon-button:disabled { opacity:.5; }
+    .expand-button { width:34px; height:30px; padding:5px; }
+    .expand-button svg { width:19px; height:19px; }
+    body.remark-editor-open { overflow:hidden; }
+    .remark-editor[hidden] { display:none; }
+    .remark-editor { position:fixed; z-index:50; inset:0; width:100%; height:100vh; height:100dvh; background:var(--paper); display:flex; flex-direction:column; }
+    .remark-toolbar { display:flex; align-items:center; gap:10px; border-bottom:1px solid var(--line); padding:9px 12px; padding-top:max(9px,env(safe-area-inset-top)); }
+    .remark-title { flex:1; min-width:0; font-size:15px; font-weight:650; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .remark-save { background:var(--accent); color:white; border-color:var(--accent); }
+    #remark-text { flex:1; display:block; width:100%; min-height:0; resize:none; border:0; outline:none; background:white; color:var(--ink); font-size:16px; line-height:1.55; padding:16px; padding-bottom:max(16px,env(safe-area-inset-bottom)); overflow:auto; overscroll-behavior:contain; }
+    #remark-text:focus-visible { outline:2px solid #a2c6d9; outline-offset:-2px; }
     .empty { background:white; padding:25px; color:var(--muted); border-radius:9px; text-align:center; font-size:14px; }
-    #toast { display:none; position:fixed; z-index:20; bottom:12px; left:50%; transform:translateX(-50%); width:max-content; max-width:calc(100vw - 28px); background:#233c4f; color:white; padding:11px 15px; border-radius:8px; box-shadow:0 4px 18px #20304040; font-size:12px; }
+    #toast { display:none; position:fixed; z-index:80; bottom:12px; left:50%; transform:translateX(-50%); width:max-content; max-width:calc(100vw - 28px); background:#233c4f; color:white; padding:11px 15px; border-radius:8px; box-shadow:0 4px 18px #20304040; font-size:12px; }
     #toast.bad { background:#923c48; }
     @media(max-width:600px){
       main { margin:8px auto 75px; padding:0 5px; }
       .chapter { border-radius:7px; margin-bottom:8px; }
       .chapter-head { padding:10px 9px; }
+      .chapter-counts { font-size:10px; }
       header h1 { font-size:17px; }
       .top { padding:9px 9px 7px; }
       .subbar { padding:0 9px 8px; }
@@ -117,6 +137,14 @@
     <p class="hint">R recherche · P/C personnages ou corps · D/I décors ou intégration · ✓ validation explicite. Clique sur un titre pour les détails. Formats : VG, G, PL, PE, DP.</p>
     <div id="content"><div class="empty">Chargement du tableau…</div></div>
   </main>
+  <section id="remark-editor" class="remark-editor" role="dialog" aria-modal="true" aria-labelledby="remark-editor-title" hidden>
+    <div class="remark-toolbar">
+      <button type="button" class="icon-button" id="remark-back" title="Revenir à la fiche" aria-label="Revenir à la fiche"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/><path d="M9 12h12"/></svg></button>
+      <div id="remark-editor-title" class="remark-title">Remarque</div>
+      <button type="button" class="icon-button remark-save" id="remark-save" title="Enregistrer la remarque" aria-label="Enregistrer la remarque"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2Z"/><path d="M17 21v-8H7v8M7 3v5h8"/></svg></button>
+    </div>
+    <textarea id="remark-text" maxlength="6000" aria-label="Texte de la remarque" placeholder="Prochaine action, détail à corriger…"></textarea>
+  </section>
   <div id="toast" role="alert"></div>
   <script>
   'use strict';
@@ -131,6 +159,7 @@
   const byId = id => document.getElementById(id);
   const esc = x => String(x ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let data = null, filter = 'all', editing = new Set(), closed = new Set(), pending = 0, toastTimer = null;
+  let remarkId = null, remarkExpected = null, remarkReturnFocus = null;
 
   function status(text, cls='') { const el=byId('status'); el.textContent=text; el.className='status '+cls; }
   function toast(text,bad=false) {
@@ -139,7 +168,8 @@
     toastTimer=setTimeout(()=>{el.style.display='none';}, bad?6500:2200);
   }
   function done() { return data.images.filter(i=>i.stages.valide).length; }
-  function ready() { return data.images.filter(i=>!i.stages.valide && (stageKeys[i.nature] || stageKeys.classique).slice(0,3).every(k=>i.stages[k])).length; }
+  function isReady(i) { return !i.stages.valide && (stageKeys[i.nature] || stageKeys.classique).slice(0,3).every(k=>i.stages[k]); }
+  function ready() { return data.images.filter(isReady).length; }
   function refreshStatus() {
     if (pending>0) status('Enregistrement sur GitHub…');
     else status(githubToken?'Synchronisé avec GitHub':'Consultation GitHub · jeton requis pour modifier','good');
@@ -147,6 +177,31 @@
   }
   function isVisible(item) {
     return filter==='all' || (item.nature==='classique' && !item.stages.personnages && !item.stages.valide);
+  }
+  // Édition immersive. Revenir sans enregistrer garde le brouillon dans la fiche.
+  function detailFor(id) { return Array.from(byId('content').querySelectorAll('[data-detail]')).find(el=>el.dataset.detail===id); }
+  function openRemarkEditor(id) {
+    const item=data?.images.find(i=>i.id===id);
+    const field=detailFor(id)?.querySelector('textarea[name="commentaire"]');
+    if (!item || !field) return;
+    remarkId=id;
+    remarkExpected=item.commentaire ?? '';
+    remarkReturnFocus=document.activeElement;
+    byId('remark-editor-title').textContent='Remarque · '+item.title;
+    byId('remark-text').value=field.value;
+    byId('remark-editor').hidden=false;
+    document.body.classList.add('remark-editor-open');
+    byId('remark-text').focus();
+  }
+  function closeRemarkEditor() {
+    if (remarkId===null) return;
+    const field=detailFor(remarkId)?.querySelector('textarea[name="commentaire"]');
+    if (field) field.value=byId('remark-text').value;
+    byId('remark-editor').hidden=true;
+    document.body.classList.remove('remark-editor-open');
+    remarkId=null; remarkExpected=null;
+    if (remarkReturnFocus?.isConnected) remarkReturnFocus.focus();
+    remarkReturnFocus=null;
   }
   function displayRow(item) {
     const open=editing.has(item.id);
@@ -164,7 +219,7 @@
       <label class="field">Format<select name="format">${opts(fmtOpts,item.format)}</select></label>
       <label class="field">Nature<select name="nature">${opts([['classique','Classique'],['note','Note musicale']],item.nature)}</select></label>
       <label class="field full">Placement<input name="placement" value="${esc(item.placement)}" maxlength="400" placeholder="Ex. à gauche du texte"></label>
-      <label class="field full">Commentaire<textarea name="commentaire" maxlength="6000" placeholder="Prochaine action, détail à corriger…">${esc(item.commentaire)}</textarea></label>
+      <div class="field full comment-field"><div class="comment-heading"><label for="comment-${esc(item.id)}">Remarque</label><button type="button" class="icon-button expand-button" data-expand="${esc(item.id)}" title="Afficher la remarque en plein écran" aria-label="Afficher la remarque en plein écran"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"/></svg></button></div><textarea id="comment-${esc(item.id)}" name="commentaire" rows="10" maxlength="6000" placeholder="Prochaine action, détail à corriger…">${esc(item.commentaire)}</textarea></div>
     </div><div class="detail-footer"><span class="source">ID invariant : ${esc(item.id)} · Pages et formats de départ indicatifs</span><button type="button" class="save" data-save="${esc(item.id)}">Enregistrer les détails</button></div></td></tr>`;
     return row+detail;
   }
@@ -174,10 +229,12 @@
     byId('filter-personnages').classList.toggle('active',filter==='personnages');
     const blocks=[];
     for (const ch of data.chapters) {
-      const items=data.images.filter(x=>x.chapter===ch.id && isVisible(x));
+      const allItems=data.images.filter(x=>x.chapter===ch.id);
+      const items=allItems.filter(isVisible);
       if (!items.length) continue;
-      const valid=items.filter(x=>x.stages.valide).length;
-      blocks.push(`<section class="chapter"><button type="button" class="chapter-head" data-chapter="${esc(ch.id)}"><strong>${closed.has(ch.id)?'›':'⌄'} ${esc(ch.title)}</strong><small>${valid}/${items.length} validées</small></button><div class="chapter-body" ${closed.has(ch.id)?'hidden':''}><table><colgroup><col class="col-name"><col class="col-format"><col class="col-stage"><col class="col-stage"><col class="col-stage"><col class="col-stage"></colgroup><thead><tr><th>Illustration</th><th title="Format">Fmt</th><th title="Recherche">R</th><th title="Personnages / Corps">P/C</th><th title="Décors / Intégration">D/I</th><th title="Validation">✓</th></tr></thead><tbody>${items.map(displayRow).join('')}</tbody></table></div></section>`);
+      const valid=allItems.filter(x=>x.stages.valide).length;
+      const readyCount=allItems.filter(isReady).length;
+      blocks.push(`<section class="chapter"><button type="button" class="chapter-head" data-chapter="${esc(ch.id)}"><strong>${closed.has(ch.id)?'›':'⌄'} ${esc(ch.title)}</strong><small class="chapter-counts"><span>${readyCount} prêtes</span><span>${valid}/${allItems.length} validées</span></small></button><div class="chapter-body" ${closed.has(ch.id)?'hidden':''}><table><colgroup><col class="col-name"><col class="col-format"><col class="col-stage"><col class="col-stage"><col class="col-stage"><col class="col-stage"></colgroup><thead><tr><th>Illustration</th><th title="Format">Fmt</th><th title="Recherche">R</th><th title="Personnages / Corps">P/C</th><th title="Décors / Intégration">D/I</th><th title="Validation">✓</th></tr></thead><tbody>${items.map(displayRow).join('')}</tbody></table></div></section>`);
     }
     byId('content').innerHTML=blocks.join('') || '<div class="empty">Aucune illustration correspondant à ce filtre.</div>';
     refreshStatus();
@@ -294,7 +351,7 @@
     }
     throw Error('Sauvegarde concurrente répétée, merci de réessayer.');
   }
-  function saveChanges(id,changes,button=null) {
+  function saveChanges(id,changes,button=null,opts={}) {
     if (!changes.length) {toast('Aucune modification.');return;}
     if (!requireToken()) {if(button?.matches('input[type=checkbox]')) {button.checked=!button.checked; button.disabled=false;} return;}
     pending++;refreshStatus();
@@ -305,17 +362,25 @@
         const latest=await commitChanges(id,changes);
         data=latest;
         pending--;
-        if (pending===0) render(); else refreshStatus();
+        if (pending===0 && !opts.preserveEditor) render(); else refreshStatus();
+        if (opts.onSuccess) opts.onSuccess();
       } catch(err) {
         pending--;
         status('Sauvegarde échouée','bad');
         toast('Non enregistré : '+(err.message||String(err)),true);
         if (button) button.disabled=false;
-        if (pending===0) await load();
+        if (pending===0) {
+          if (opts.preserveEditor) {
+            try { data=(await fetchLatest()).doc; refreshStatus(); }
+            catch (_) { status('Actualisation échouée','bad'); }
+          } else await load();
+        }
       }
     });
   }
   byId('content').addEventListener('click',ev=>{
+    const expand=ev.target.closest('[data-expand]');
+    if (expand) { openRemarkEditor(expand.dataset.expand); return; }
     const ch=ev.target.closest('[data-chapter]');
     if (ch) {const id=ch.dataset.chapter;closed.has(id)?closed.delete(id):closed.add(id);render();return;}
     const t=ev.target.closest('[data-toggle]');
@@ -336,6 +401,34 @@
     const old=item.stages[field.slice(7)];
     target.disabled=true;
     saveChanges(item.id,[{field,value:target.checked,expected:old}],target);
+  });
+  byId('remark-back').addEventListener('click',()=>{
+    if (!byId('remark-save').disabled) closeRemarkEditor();
+  });
+  byId('remark-save').addEventListener('click',()=>{
+    if (remarkId===null) return;
+    const id=remarkId, value=byId('remark-text').value;
+    if (value===remarkExpected) { closeRemarkEditor(); toast('Remarque inchangée.'); return; }
+    if (!githubToken) { closeRemarkEditor(); requireToken(); return; }
+    saveChanges(id,[{field:'commentaire',value,expected:remarkExpected}],byId('remark-save'),{
+      preserveEditor:true,
+      onSuccess:()=>{ closeRemarkEditor(); toast('Remarque enregistrée sur GitHub.'); }
+    });
+  });
+  document.addEventListener('keydown',ev=>{
+    if (byId('remark-editor').hidden) return;
+    if (ev.key==='Escape') {
+      ev.preventDefault();
+      if (!byId('remark-save').disabled) closeRemarkEditor();
+    } else if ((ev.ctrlKey || ev.metaKey) && ev.key.toLowerCase()==='s') {
+      ev.preventDefault();
+      byId('remark-save').click();
+    } else if (ev.key==='Tab') {
+      const focusable=[byId('remark-back'),byId('remark-save'),byId('remark-text')];
+      const first=focusable[0], last=focusable[focusable.length-1];
+      if (ev.shiftKey && document.activeElement===first) { ev.preventDefault(); last.focus(); }
+      else if (!ev.shiftKey && document.activeElement===last) { ev.preventDefault(); first.focus(); }
+    }
   });
   byId('filter-all').addEventListener('click',()=>{filter='all';render();});
   byId('filter-personnages').addEventListener('click',()=>{filter='personnages';render();});
