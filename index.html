@@ -139,10 +139,11 @@
     toastTimer=setTimeout(()=>{el.style.display='none';}, bad?6500:2200);
   }
   function done() { return data.images.filter(i=>i.stages.valide).length; }
+  function ready() { return data.images.filter(i=>!i.stages.valide && (stageKeys[i.nature] || stageKeys.classique).slice(0,3).every(k=>i.stages[k])).length; }
   function refreshStatus() {
     if (pending>0) status('Enregistrement sur GitHub…');
     else status(githubToken?'Synchronisé avec GitHub':'Consultation GitHub · jeton requis pour modifier','good');
-    if (data) byId('summary').textContent=`${done()} / ${data.images.length} validées`;
+    if (data) byId('summary').textContent=`${ready()} prêtes · ${done()} / ${data.images.length} validées`;
   }
   function isVisible(item) {
     return filter==='all' || (item.nature==='classique' && !item.stages.personnages && !item.stages.valide);
@@ -163,7 +164,7 @@
       <label class="field">Format<select name="format">${opts(fmtOpts,item.format)}</select></label>
       <label class="field">Nature<select name="nature">${opts([['classique','Classique'],['note','Note musicale']],item.nature)}</select></label>
       <label class="field full">Placement<input name="placement" value="${esc(item.placement)}" maxlength="400" placeholder="Ex. à gauche du texte"></label>
-      <label class="field full">Commentaire<textarea name="commentaire" maxlength="2000" placeholder="Prochaine action, détail à corriger…">${esc(item.commentaire)}</textarea></label>
+      <label class="field full">Commentaire<textarea name="commentaire" maxlength="6000" placeholder="Prochaine action, détail à corriger…">${esc(item.commentaire)}</textarea></label>
     </div><div class="detail-footer"><span class="source">ID invariant : ${esc(item.id)} · Pages et formats de départ indicatifs</span><button type="button" class="save" data-save="${esc(item.id)}">Enregistrer les détails</button></div></td></tr>`;
     return row+detail;
   }
