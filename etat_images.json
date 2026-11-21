@@ -1,11 +1,18 @@
 {
   "schemaVersion": 1,
-  "version": 108,
-  "updatedAt": "2026-11-21T04:53:24.318Z",
+  "version": 109,
+  "updatedAt": "2026-11-21T08:14:51.749Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
-    "note": "Titres/pages issus du storyboard de travail V1.1. Les formats VG/DP inférés des marqueurs * et ++ sont indicatifs et modifiables. Aucun état de fabrication ni validation déduit des statuts de storyboard."
+    "note": "Titres/pages issus du storyboard de travail V1.1. Les formats VG/DP inférés des marqueurs * et ++ sont indicatifs et modifiables. Aucun état de fabrication ni validation déduit des statuts de storyboard.",
+    "enrichissementTexteEdit": {
+      "origine": "Lola - texte edit.txt",
+      "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+      "modifieLe": "2026-11-18T17:16:32.350Z",
+      "effectuePar": "C50_098",
+      "note": "Seuls les champs vides sont complétés depuis les intentions de texte edit ; les statuts éditoriaux V/W/T ne sont pas les étapes de fabrication ; données utilisateur conservées."
+    }
   },
   "chapters": [
     {
@@ -47,7 +54,7 @@
       "chapter": "LO",
       "title": "lola dans sa chambre",
       "page": "3",
-      "format": "",
+      "format": "PE",
       "nature": "classique",
       "placement": "",
       "commentaire": "",
@@ -62,7 +69,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "+",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 28,
+          "marqueur": "+",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -73,7 +87,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Lola dehors, regarde la lune intensément. Comme dans toutes les images à venir, sauf indications contraires, il fait nuit. La lune doit rester identique aussi, là aussi sauf indications contraires",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -85,7 +99,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 37,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -108,7 +129,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 44,
+          "marqueur": "",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -131,7 +159,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 47,
+          "marqueur": "",
+          "statutEditorial": "T"
+        }
       }
     },
     {
@@ -154,7 +189,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 52,
+          "marqueur": "",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -164,8 +206,8 @@
       "page": "6",
       "format": "DP",
       "nature": "classique",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Texte incorporé à l’illustration.",
+      "commentaire": "texte incorporé",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -177,7 +219,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "++",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 60,
+          "marqueur": "++",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -188,7 +237,7 @@
       "format": "VG",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Lola s'interroge, pas de décor, semi serré",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -200,7 +249,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 74,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -211,7 +267,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Lola marche avec Gaspard, qui semble mimer quelque chose de très vaste. Un peu de neige dans le décor, et il ne fait pas nuit",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -223,7 +279,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 82,
+          "marqueur": "",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -234,7 +297,7 @@
       "format": "VG",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Gaspard semble saluer quelque chose, peut être presque un salut militaire soft",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -246,7 +309,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 89,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -257,7 +327,7 @@
       "format": "VG",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Lola semble indiquer une direction, un cap",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -269,7 +339,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 98,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -280,7 +357,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Lola voit le lac au loin, on distingue une petite silhouette sur le lac, non reconnaissable (c'est Gaspard). La lune est cachée par un nuage",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -292,7 +369,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 103,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -315,7 +399,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 112,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -325,8 +416,8 @@
       "page": "11",
       "format": "VG",
       "nature": "classique",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Micro-goutte en gouttière droite du texte.",
+      "commentaire": "la goute est en gouttière droite du texte\n\nINTENTION HORS TEXTE : EN TRAVAIL FORT C26_010 — candidate prioritaire autour de « liquide » : une micro-goutte d’eau, petite, isolée, calme et subtile, qui semble s’écouler paisiblement dans la page. Avec la plume, elle forme un diptyque discret goutte → lac / plume → canard ; aucun micro-signe lunaire n’est ajouté avant l’illusion. Le mini-lit ci-dessus reste À TESTER comme piste secondaire.",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -338,7 +429,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 122,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -348,8 +446,8 @@
       "page": "11",
       "format": "VG",
       "nature": "classique",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Plume à gauche du texte ; paragraphe à partir de « Calme » décalé vers la droite.",
+      "commentaire": "une plume semble chuter, en flottant en douceur, dans la page. La plume est à gauche du texte, et le paragraphe à partir de \"Calme\" est indenté vers la droite",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -361,7 +459,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 128,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -384,7 +489,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "++",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 133,
+          "marqueur": "++",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -407,7 +519,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 137,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -418,7 +537,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "peut être micro illustration. Il semble mimer une liste de ces mains, hilare",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -430,7 +549,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 144,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -441,7 +567,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "lune coquète, qui se regarde dans son reflet, et discret salut de Gaspard",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -453,7 +579,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 169,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -464,7 +597,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Gaspard fait disparaitre le reflet",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -476,7 +609,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 179,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -499,7 +639,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 186,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -522,7 +669,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "++",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 198,
+          "marqueur": "++",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -545,7 +699,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 202,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -568,7 +729,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 212,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -579,7 +747,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "INTENTION HORS TEXTE : Coco travaille sur son petit monticule au bord du lac, pas sur un îlot. La pile mêle notes très denses et feuilles encore ouvertes : schémas sommaires, flèches, ronds, logique de processus et ratures. La feuille active est tournée vers Coco, donc tête en bas pour le lecteur ; elle montre un titre visuel de programme, puis une liste à puces non lisible avec 1–2 lignes totalement rayées et 1–2 partiellement rayées, afin de préparer la lecture du programme.",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -591,7 +759,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 225,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -614,7 +789,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 231,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -625,7 +807,7 @@
       "format": "VG",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "je pense qu'on illustre juste la plume cassée, sans coco ni décors\n\nINTENTION HORS TEXTE : ellipse ; Coco révèle son programme et son plan de capture.",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -637,7 +819,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 237,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -660,7 +849,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 244,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -668,10 +864,10 @@
       "chapter": "CO",
       "title": "le plan de coco",
       "page": "23",
-      "format": "",
+      "format": "PE",
       "nature": "classique",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Illustrations du plan sur la page de droite ; flèches vers la liste à gauche, sans déborder de la marge gauche de la page droite.",
+      "commentaire": "les inventions de coco sont illustrés comme le début d'un plan complet de capture de lune. Patent paper, schéma. Les inventions pages de droites auront des flèches qui les relieront à leur nom sur la liste à gauche (les flèches ne dépasseront par contre pas la marge gauche de la page de droite)\n\nINTENTION HORS TEXTE : développement visuel du plan / patent paper.",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -683,7 +879,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "+",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 257,
+          "marqueur": "+",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -694,7 +897,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Peut être micro ou avec décors",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -706,7 +909,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 262,
+          "marqueur": "",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -717,7 +927,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Peut être micro ou avec décors: Coco est toujours paniqué, mais il y a maintenant un effet concret, proche du renoncement: par exemple, par nervosité, il a transformé ces jolis plans en une boule désordonnée de feuilles",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -729,7 +939,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 276,
+          "marqueur": "",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -752,7 +969,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "++",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 280,
+          "marqueur": "++",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -775,7 +999,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 284,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -786,7 +1017,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Nabil regarde la lune, air gourmand, le lune ressemble maintenant à une assiette avec une jolie cuisse rotie encore fumante",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -798,7 +1029,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 296,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -821,7 +1059,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 304,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -844,7 +1089,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 312,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -855,7 +1107,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Nabil se retourne pour montrer à Lola où se trouve Kika",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -867,7 +1119,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 323,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -890,7 +1149,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 328,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -913,7 +1179,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "++",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 332,
+          "marqueur": "++",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -936,7 +1209,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 335,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -947,7 +1227,7 @@
       "format": "VG",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "kika sert fort son arbre, comme un réel calin. Dans la révélation ki1a, Kika sera accroché à l'arbre/branche, mais sans l'étreindre justement",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -959,7 +1239,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 354,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -970,7 +1257,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Kika regarde tendrement Lola, qui a les yeux levés au ciel, fixant la lune avec admiration",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -982,7 +1269,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 358,
+          "marqueur": "",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -993,7 +1287,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "INTENTION HORS TEXTE : pendant l’appel mimé, Dame Lune reste absorbée par son livre ; elle ne rejette pas intentionnellement Kika.",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -1005,7 +1299,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 368,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1016,7 +1317,7 @@
       "format": "VG",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "INTENTION HORS TEXTE : micro-illustration autour du rappel à Nabil : le crocodile envoie un bisou de la main, sans montrer clairement à qui il est destiné. Cette parenthèse désamorce son ancien registre menaçant avant sa future relation amicale avec Lola.",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -1028,7 +1329,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 382,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1038,8 +1346,8 @@
       "page": "36",
       "format": "VG",
       "nature": "classique",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Probablement sur le côté du texte (à tester).",
+      "commentaire": "Probablement sur le côté du texte: éventuellement sur une texture tronc d'arbre, une sorte de gravure discrète avec une petite tête de koala, le signe + et un croissant de lune. éventuellement un très léger cœur, soit autour, soit après un =, mais plus un cœur \"entre copines\" qu'un cœur vraiment romantique",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -1051,7 +1359,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 388,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -1062,7 +1377,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "kika lève les yeux au ciel, toute excitée, et pointe de sa main quelque chose dans le ciel",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -1074,7 +1389,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 393,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1085,7 +1407,7 @@
       "format": "VG",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "ça sera l'exception à la règle des fins de chapitre: ici je pense qu'il faut montrer un colibri! Ce mot n'est pas assez connu pour pouvoir se passer d'un vrai pont sémantique. Donc on doit le montrer (et acrobate pourrait aussi en bénéficier aussi, mais c'est moins grave, et plus difficile à faire correctement). Par contre, pour ne pas nuire à l'illusion, il sera important d'illustrer que l'oiseau lui même, sans aucun décors ni repère visuel. Et on profite aussi du fait qu'il est en mouvement: il ne vole sur la lune qu'à certains instants T, T+X, T+Y, etc. donc contrairement aux autres illusions qui sont bien plus statiques, c'est moins génant s'il apparait une 1ère fois sans lune derrière lui (en fait sans rien du tout, mais au niveau ressenti ça donne une double sécurité)",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -1097,7 +1419,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 401,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -1120,7 +1449,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "++",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 405,
+          "marqueur": "++",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1131,7 +1467,7 @@
       "format": "",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "INTENTION HORS TEXTE : SYMPHONIE DE FIFI — PRINCIPE STYLISTIQUE VALIDÉ : toutes les illustrations qui matérialisent des évocations de son discours, et non des scènes du récit, utilisent une identité graphique propre, distincte du style narratif principal et des autres micro-illustrations/vignettes du livre. Technique exacte EN TRAVAIL FORT : piste aquarelle, crayon pastel ou autre matière très douce, légère et aérienne ; la reconnaissance immédiate des objets servant de ponts sémantiques reste prioritaire. La grammaire musicale (notes, portées, symboles) s’y associe.\n\nINTENTION HORS TEXTE : DISPOSITIF TYPOGRAPHIQUE SYMPHONIQUE — VALIDÉ À EXPÉRIMENTER PLEINEMENT : seules les paroles qui sortent de la bouche de Fifi peuvent être intégrées aux portées. Le narrateur, les scènes objectives, les autres personnages et l’intériorité de Lola restent hors portées. Les portées ne sont pas un habillage : elles doivent pouvoir unir typographie, paroles et évocations symphoniques en une seule expérience visuelle. Fonction narrative : signaler que Fifi fait basculer les règles du livre et prépare le passage des illusions visuelles à l’imaginaire / intériorité de Lola. L’expérience doit être tentée sans autocensure graphique ; l’adoption finale reste soumise aux conditions non négociables de lisibilité, ordre de lecture évident, décodage intact, absence d’ambiguïté entre lettres et notation musicale, et coût / complexité acceptables.\n\nINTENTION HORS TEXTE : ORCHESTRATION DE LA SYMPHONIE — VALIDÉ : ne plus ajouter de nouveaux systèmes graphiques par principe ; faire croître et jouer ensemble ceux déjà retenus. Fifi commence comme une petite chansonnette presque intime, puis son discours prend de l’ampleur et sa voix devient progressivement symphonie. Penser la montée comme une ouverture orchestrale : petit motif / voix presque seule, puis entrée progressive des autres couches, développement, ampleur, apogée, dernier écho, silence. Le début doit donc rester aéré et peu chargé ; chaque couche visuelle supplémentaire arrive avec l’ampleur du discours.",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -1143,7 +1479,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 410,
+          "marqueur": "",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1166,7 +1509,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 421,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -1189,7 +1539,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 427,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -1212,7 +1569,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 432,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -1235,7 +1599,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 435,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -1246,7 +1617,7 @@
       "format": "VG",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "INTENTION HORS TEXTE : À TESTER : utiliser une grande clé de sol comme motif symphonique du mot « virevolte » ; petit Fifi en masque dans la clé, en plein vol, avec beaucoup d’espace libre et seulement quelques traits très légers figurant sa trajectoire et son mouvement virevoltant. Le symbole lui-même participe au mouvement ; il n’a pas à porter un pont sémantique indispensable au récit.",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -1258,7 +1629,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 439,
+          "marqueur": "*",
+          "statutEditorial": "T"
+        }
       }
     },
     {
@@ -1281,7 +1659,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 447,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1304,7 +1689,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 450,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1327,7 +1719,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 456,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1350,7 +1749,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 461,
+          "marqueur": "*",
+          "statutEditorial": "T"
+        }
       }
     },
     {
@@ -1361,7 +1767,7 @@
       "format": "VG",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Fifi est souriant, regard vers le bas, sur une branche, les ailes déployées, image de liberté et de force",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -1373,7 +1779,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 464,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -1384,7 +1797,7 @@
       "format": "VG",
       "nature": "note",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "INTENTION HORS TEXTE : VALIDÉ : un triolet / groupe de trois notes liées pour « murs », « arbres massifs » et « cols », chacun réduit à une forme très simple dans la tête ronde de sa note ; Fifi vole dans la partie haute de liaison et survole les trois obstacles. Puis une ronde distincte pour « latitudes » : globe avec lignes de latitude et de très petits signes d’oiseaux / ailes griffonnés discrètement à plusieurs endroits. Le tout repose sur une portée très discrète en fondu. Priorité à la reconnaissance immédiate des trois obstacles et du globe.",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -1396,7 +1809,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 473,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1419,7 +1839,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 483,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1430,7 +1857,7 @@
       "format": "VG",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Fifi regarde la lune. Il a un air presque amoureux, en tout cas il semble heureux et serein",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -1442,7 +1869,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 486,
+          "marqueur": "*",
+          "statutEditorial": "W"
+        }
       }
     },
     {
@@ -1450,10 +1884,10 @@
       "chapter": "FI",
       "title": "lune guide",
       "page": "47",
-      "format": "",
+      "format": "PE",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "INTENTION HORS TEXTE : À TESTER — la lune devient ici le grand motif unificateur du passage. Piste forte : faire de la lune la tête d’une note géante, portée par une grande portée, avec cadrage ample (note entière, partiellement hors cadre ou se perdant en fondu vers le haut). L’idée est que la page fonctionne comme un moment d’unité dans la symphonie de Fifi : une seule grande forme, calme mais intense, comme si tout l’élan musical se rassemblait sur un seul appui. Cette image souligne les deux thèmes du passage : GUIDE — la lune, à elle seule, conduit le mouvement vers la clôture de la symphonie ; LUEUR — la lune éclaire le texte lui-même, qui semble vivre dans sa clarté. Vigilance : éviter l’effet trop conceptuel ou trop \"logo\" ; la page doit rester habitée, nocturne, douce et lisible.",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -1465,7 +1899,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "+",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 499,
+          "marqueur": "+",
+          "statutEditorial": "T"
+        }
       }
     },
     {
@@ -1473,10 +1914,10 @@
       "chapter": "FI",
       "title": "colibri de la nuit",
       "page": "49",
-      "format": "",
+      "format": "PE",
       "nature": "note",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Texte intégré à une portée dans la partie inférieure de l’illustration (piste EN TRAVAIL).",
+      "commentaire": "INTENTION HORS TEXTE : Illustration pleine page simple VALIDÉE. Piste graphique EN TRAVAIL FORT : texte dans une portée dans la partie inférieure de l’illustration, comme une légende finale de celle-ci. Fifi en liberté, altitude et bravoure ; lune-projecteur ; deux prédateurs gênés par la lueur. Cette image constitue l’apogée orchestrale en regard de FI4A : là où la page « lune guide » concentre la symphonie en une grande forme unique, FI4B en déploie toutes les couches dans une image plus riche, plus lisible par détails successifs, comme un grand tutti où plusieurs instruments se combinent. La grammaire musicale de Fifi peut entourer et traverser l’image : notes très légères, portée fine pouvant déborder du cadre, comme si l’ensemble de la vision appartenait à la symphonie de Fifi. Éviter le grand tableau surchargé : l’habillage musical porte déjà une part du spectaculaire.",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -1488,7 +1929,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "+",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 512,
+          "marqueur": "+",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1499,7 +1947,7 @@
       "format": "VG",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "la portée du texte de Fifi se termine dans une tornade qui semble aspirer la portée et des notes. La portée en continue plus après la tornade\n\nINTENTION HORS TEXTE : EXCEPTION VALIDÉE — ÉCHO DE FIFI : ces deux motifs ne constituent pas une nouvelle musique de Lola, mais le dernier fragment de la symphonie de Fifi qu’elle réentend intérieurement. Tester une PETITE portée, nettement plus légère que les portées de parole directe, avec fondu marqué en entrée et en sortie, comme un extrait coupé au milieu d’une symphonie déjà jouée. La portée doit sembler venir d’avant et repartir au-delà du fragment. Elle matérialise la résonance de toute la symphonie dans Lola : ces deux motifs précipitent le tourbillon de pensée amorcé par « comme une petite tornade ». Après cet écho, les portées disparaissent définitivement.",
       "stages": {
         "recherche": true,
         "personnages": true,
@@ -1511,7 +1959,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 525,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1521,8 +1976,8 @@
       "page": "51",
       "format": "VG",
       "nature": "classique",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Disposition horizontale ou verticale des quatre phases (à tester).",
+      "commentaire": "4 phases de lune avec 4 scènes de la vie de Lola, qui inclut chacune une relation avec la lune (dodo bébé avec doudou, lecture livre lune avec maman, gateau lune anniversaire, Gaspard qui invite à sortir). Disposition horizontale ou verticale à tester",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -1534,7 +1989,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 534,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1544,8 +2006,8 @@
       "page": "52",
       "format": "VG",
       "nature": "classique",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Lola en bas à gauche de la double page.",
+      "commentaire": "en bas à gauche de la double page, Lola, sereine, regarde la lune luire en haut à droite de la double page",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -1557,7 +2019,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 545,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1567,8 +2036,8 @@
       "page": "53",
       "format": "VG",
       "nature": "classique",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Lune en haut à droite de la double page, ciel nocturne en fondu.",
+      "commentaire": "la lune est en haut à droite de la double page, avec un ciel de nuit en fondu autour d'elle",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -1580,7 +2049,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "*",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 549,
+          "marqueur": "*",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1590,8 +2066,8 @@
       "page": "54",
       "format": "DP",
       "nature": "classique",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Pleine double page ; cinq photos, avec légendes et dédicace dans le bas des photos, sans texte supplémentaire.",
+      "commentaire": "pleine double page, dans l'imaginaire de Lola, 5 photos souvenirs avec la légende \"L'ami. La lune.\" et une dédicace en dessous de L'ami, en script stylisé. Les lunes sont différentes sur chaque photo. Il n'y a pas de texte supplémentaire sur la double page, puisque tout est inclus dans le bas des photos\n\nINTENTION HORS TEXTE : Lola imagine cinq nuits futures, une avec chacun de ses amis.",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -1603,7 +2079,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "++",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 560,
+          "marqueur": "++",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1611,10 +2094,10 @@
       "chapter": "RE",
       "title": "ma lune l'amie",
       "page": "57",
-      "format": "",
+      "format": "PE",
       "nature": "classique",
       "placement": "",
-      "commentaire": "",
+      "commentaire": "Lola au moment de rentrer chez elle, au pas de sa porte ouverte, se tourne vers la lune et lui envoie un bisou",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -1626,7 +2109,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "+",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 601,
+          "marqueur": "+",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1634,7 +2124,7 @@
       "chapter": "EP",
       "title": "lola dort",
       "page": "59",
-      "format": "",
+      "format": "PE",
       "nature": "classique",
       "placement": "",
       "commentaire": "",
@@ -1649,7 +2139,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "+",
-        "formatEstimation": false
+        "formatEstimation": false,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 611,
+          "marqueur": "+",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1659,8 +2156,8 @@
       "page": "60",
       "format": "DP",
       "nature": "classique",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Texte dans la moitié supérieure ; illustration dans la moitié inférieure, prolongée sur la page de droite.",
+      "commentaire": "La moitié supérieure de la double page est réservé au texte. L'illustration utilise toute la moitié inférieure de la double page pour se prolonger sur la page de droite",
       "stages": {
         "recherche": false,
         "personnages": false,
@@ -1672,7 +2169,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "++",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 622,
+          "marqueur": "++",
+          "statutEditorial": "V"
+        }
       }
     },
     {
@@ -1682,8 +2186,8 @@
       "page": "62",
       "format": "DP",
       "nature": "classique",
-      "placement": "",
-      "commentaire": "",
+      "placement": "Texte incrusté dans l’illustration en double page.",
+      "commentaire": "Le texte est incrusté dans l'illustration double page",
       "stages": {
         "recherche": true,
         "personnages": false,
@@ -1695,7 +2199,14 @@
       "source": {
         "document": "Storyboard intégral V1.1 C45_063",
         "marqueur": "++",
-        "formatEstimation": true
+        "formatEstimation": true,
+        "texteEdit": {
+          "document": "Lola - texte edit.txt",
+          "idDrive": "1KzgW_BmxTar4C6UcucuBa2sjZIK02Z-L",
+          "line": 635,
+          "marqueur": "++",
+          "statutEditorial": "V"
+        }
       }
     }
   ]
