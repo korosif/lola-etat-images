@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 110,
-  "updatedAt": "2026-11-22T16:03:10.867Z",
+  "version": 111,
+  "updatedAt": "2026-11-22T16:03:15.405Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -1890,7 +1890,7 @@
       "commentaire": "INTENTION HORS TEXTE : À TESTER — la lune devient ici le grand motif unificateur du passage. Piste forte : faire de la lune la tête d’une note géante, portée par une grande portée, avec cadrage ample (note entière, partiellement hors cadre ou se perdant en fondu vers le haut). L’idée est que la page fonctionne comme un moment d’unité dans la symphonie de Fifi : une seule grande forme, calme mais intense, comme si tout l’élan musical se rassemblait sur un seul appui. Cette image souligne les deux thèmes du passage : GUIDE — la lune, à elle seule, conduit le mouvement vers la clôture de la symphonie ; LUEUR — la lune éclaire le texte lui-même, qui semble vivre dans sa clarté. Vigilance : éviter l’effet trop conceptuel ou trop \"logo\" ; la page doit rester habitée, nocturne, douce et lisible.",
       "stages": {
         "recherche": true,
-        "personnages": false,
+        "personnages": true,
         "decors": false,
         "corps": false,
         "integration": false,
