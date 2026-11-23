@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 117,
-  "updatedAt": "2026-11-23T21:14:45.167Z",
+  "version": 118,
+  "updatedAt": "2026-11-23T21:14:56.267Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -1980,7 +1980,7 @@
       "commentaire": "4 phases de lune avec 4 scènes de la vie de Lola, qui inclut chacune une relation avec la lune (dodo bébé avec doudou, lecture livre lune avec maman, gateau lune anniversaire, Gaspard qui invite à sortir). Disposition horizontale ou verticale à tester",
       "stages": {
         "recherche": true,
-        "personnages": false,
+        "personnages": true,
         "decors": false,
         "corps": false,
         "integration": false,
