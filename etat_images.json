@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 115,
-  "updatedAt": "2026-11-22T16:03:27.940Z",
+  "version": 116,
+  "updatedAt": "2026-11-23T21:14:34.859Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -1919,7 +1919,7 @@
       "placement": "Texte intégré à une portée dans la partie inférieure de l’illustration (piste EN TRAVAIL).",
       "commentaire": "INTENTION HORS TEXTE : Illustration pleine page simple VALIDÉE. Piste graphique EN TRAVAIL FORT : texte dans une portée dans la partie inférieure de l’illustration, comme une légende finale de celle-ci. Fifi en liberté, altitude et bravoure ; lune-projecteur ; deux prédateurs gênés par la lueur. Cette image constitue l’apogée orchestrale en regard de FI4A : là où la page « lune guide » concentre la symphonie en une grande forme unique, FI4B en déploie toutes les couches dans une image plus riche, plus lisible par détails successifs, comme un grand tutti où plusieurs instruments se combinent. La grammaire musicale de Fifi peut entourer et traverser l’image : notes très légères, portée fine pouvant déborder du cadre, comme si l’ensemble de la vision appartenait à la symphonie de Fifi. Éviter le grand tableau surchargé : l’habillage musical porte déjà une part du spectaculaire.",
       "stages": {
-        "recherche": false,
+        "recherche": true,
         "personnages": false,
         "decors": false,
         "corps": false,
