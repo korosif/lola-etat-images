@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 136,
-  "updatedAt": "2026-11-25T19:54:42.976Z",
+  "version": 137,
+  "updatedAt": "2026-11-25T19:54:50.523Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -2100,7 +2100,7 @@
       "commentaire": "Lola au moment de rentrer chez elle, au pas de sa porte ouverte, se tourne vers la lune et lui envoie un bisou",
       "stages": {
         "recherche": true,
-        "personnages": true,
+        "personnages": false,
         "decors": false,
         "corps": false,
         "integration": false,
