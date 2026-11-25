@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 141,
-  "updatedAt": "2026-11-25T22:00:35.774Z",
+  "version": 142,
+  "updatedAt": "2026-11-25T22:00:38.734Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -570,7 +570,7 @@
       "commentaire": "lune coquète, qui se regarde dans son reflet, et discret salut de Gaspard",
       "stages": {
         "recherche": true,
-        "personnages": false,
+        "personnages": true,
         "decors": false,
         "corps": false,
         "integration": false,
