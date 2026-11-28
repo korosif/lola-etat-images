@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 192,
-  "updatedAt": "2026-11-28T13:57:58.934Z",
+  "version": 193,
+  "updatedAt": "2026-11-28T13:58:00.760Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -239,7 +239,7 @@
       "placement": "",
       "commentaire": "Lola s'interroge, pas de décor, semi serré",
       "stages": {
-        "recherche": false,
+        "recherche": true,
         "personnages": false,
         "decors": false,
         "corps": false,
