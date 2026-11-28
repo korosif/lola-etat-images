@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 167,
-  "updatedAt": "2026-11-28T13:57:09.616Z",
+  "version": 168,
+  "updatedAt": "2026-11-28T13:57:11.553Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -869,7 +869,7 @@
       "placement": "Illustrations du plan sur la page de droite ; flèches vers la liste à gauche, sans déborder de la marge gauche de la page droite.",
       "commentaire": "les inventions de coco sont illustrés comme le début d'un plan complet de capture de lune. Patent paper, schéma. Les inventions pages de droites auront des flèches qui les relieront à leur nom sur la liste à gauche (les flèches ne dépasseront par contre pas la marge gauche de la page de droite)\n\nINTENTION HORS TEXTE : développement visuel du plan / patent paper.",
       "stages": {
-        "recherche": false,
+        "recherche": true,
         "personnages": true,
         "decors": true,
         "corps": false,
