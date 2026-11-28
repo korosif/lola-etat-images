@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 149,
-  "updatedAt": "2026-11-28T13:44:47.790Z",
+  "version": 150,
+  "updatedAt": "2026-11-28T13:44:49.754Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -89,7 +89,7 @@
       "placement": "",
       "commentaire": "Lola dehors, regarde la lune intensément. Comme dans toutes les images à venir, sauf indications contraires, il fait nuit. La lune doit rester identique aussi, là aussi sauf indications contraires",
       "stages": {
-        "recherche": false,
+        "recherche": true,
         "personnages": false,
         "decors": false,
         "corps": false,
