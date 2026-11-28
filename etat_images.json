@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 156,
-  "updatedAt": "2026-11-28T13:56:47.937Z",
+  "version": 157,
+  "updatedAt": "2026-11-28T13:56:49.809Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -810,7 +810,7 @@
       "commentaire": "je pense qu'on illustre juste la plume cassée, sans coco ni décors\n\nINTENTION HORS TEXTE : ellipse ; Coco révèle son programme et son plan de capture.",
       "stages": {
         "recherche": true,
-        "personnages": false,
+        "personnages": true,
         "decors": false,
         "corps": false,
         "integration": false,
