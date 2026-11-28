@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 174,
-  "updatedAt": "2026-11-28T13:57:23.638Z",
+  "version": 175,
+  "updatedAt": "2026-11-28T13:57:25.557Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -599,7 +599,7 @@
       "placement": "",
       "commentaire": "Gaspard fait disparaitre le reflet",
       "stages": {
-        "recherche": false,
+        "recherche": true,
         "personnages": false,
         "decors": false,
         "corps": false,
