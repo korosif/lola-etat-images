@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 158,
-  "updatedAt": "2026-11-28T13:56:51.807Z",
+  "version": 159,
+  "updatedAt": "2026-11-28T13:56:53.745Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -750,7 +750,7 @@
       "commentaire": "INTENTION HORS TEXTE : Coco travaille sur son petit monticule au bord du lac, pas sur un îlot. La pile mêle notes très denses et feuilles encore ouvertes : schémas sommaires, flèches, ronds, logique de processus et ratures. La feuille active est tournée vers Coco, donc tête en bas pour le lecteur ; elle montre un titre visuel de programme, puis une liste à puces non lisible avec 1–2 lignes totalement rayées et 1–2 partiellement rayées, afin de préparer la lecture du programme.",
       "stages": {
         "recherche": true,
-        "personnages": false,
+        "personnages": true,
         "decors": false,
         "corps": false,
         "integration": false,
