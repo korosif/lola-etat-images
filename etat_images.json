@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 197,
-  "updatedAt": "2026-11-28T13:58:08.592Z",
+  "version": 198,
+  "updatedAt": "2026-11-28T13:58:10.849Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -360,7 +360,7 @@
       "commentaire": "Lola voit le lac au loin, on distingue une petite silhouette sur le lac, non reconnaissable (c'est Gaspard). La lune est cachée par un nuage",
       "stages": {
         "recherche": false,
-        "personnages": false,
+        "personnages": true,
         "decors": true,
         "corps": false,
         "integration": false,
