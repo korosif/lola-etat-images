@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 173,
-  "updatedAt": "2026-11-28T13:57:21.640Z",
+  "version": 174,
+  "updatedAt": "2026-11-28T13:57:23.638Z",
   "provenance": {
     "initialisePar": "C50_061",
     "source": "Une_lapine_sur_la_lune_storyboard_integral_V1_1_C45_063.html",
@@ -929,7 +929,7 @@
       "placement": "",
       "commentaire": "Peut être micro ou avec décors: Coco est toujours paniqué, mais il y a maintenant un effet concret, proche du renoncement: par exemple, par nervosité, il a transformé ces jolis plans en une boule désordonnée de feuilles",
       "stages": {
-        "recherche": false,
+        "recherche": true,
         "personnages": true,
         "decors": true,
         "corps": false,
